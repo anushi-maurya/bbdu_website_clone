@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+:root {
+    --bbdu-navy: #071c31;
+    --bbdu-blue: #0b2b4b;
+    --bbdu-orange: #d55a36;
+    --bbdu-light: #f5f7fa;
+    --bbdu-text: #333333;
+}
+
+body {
+    color: var(--bbdu-text);
+    background-color: #ffffff;
+}
+
+.page-banner {
+    min-height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(4, 20, 36, 0.72);
+}
+
+.page-banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.page-banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.page-banner p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.section-light {
+    background-color: var(--bbdu-light);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--bbdu-navy);
+}
+
+.section-title h2 span {
+    color: var(--bbdu-orange);
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: 12px auto 0;
+    color: #666;
+}
+
+.title-line {
+    width: 70px;
+    height: 4px;
+    background-color: var(--bbdu-orange);
+    margin: 15px auto 0;
+}
+
+.content-image {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-card,
+.school-card,
+.program-card,
+.life-card,
+.placement-card,
+.admission-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.09);
+    transition: 0.3s ease;
+}
+
+.info-card:hover,
+.school-card:hover,
+.program-card:hover,
+.life-card:hover,
+.placement-card:hover,
+.admission-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+.school-card img,
+.life-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h4,
+.card-content h5 {
+    color: var(--bbdu-navy);
+    font-weight: 700;
+}
+
+.orange-button {
+    display: inline-block;
+    background-color: var(--bbdu-orange);
+    color: white;
+    padding: 11px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.orange-button:hover {
+    color: white;
+    background-color: #b74728;
+}
+
+.icon-box {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background-color: rgba(213, 90, 54, 0.13);
+    color: var(--bbdu-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.program-category {
+    background: var(--bbdu-navy);
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.program-table th {
+    background-color: var(--bbdu-orange);
+    color: white;
+}
+
+.admission-step {
+    width: 58px;
+    height: 58px;
+    background-color: var(--bbdu-orange);
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.stat-number {
+    color: var(--bbdu-orange);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.recruiter-logo {
+    height: 85px;
+    width: 100%;
+    object-fit: contain;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+}
+
+.contact-box {
+    background-color: var(--bbdu-navy);
+    color: white;
+    padding: 35px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contact-box h3 {
+    color: white;
+}
+
+.contact-item {
+    display: flex;
+    gap: 15px;
+    margin: 22px 0;
+}
+
+.contact-item i {
+    color: var(--bbdu-orange);
+    font-size: 22px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.09);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    min-height: 48px;
+    border-radius: 5px;
+}
+
+.contact-form textarea.form-control {
+    min-height: 140px;
+}
+
+.map-frame {
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--bbdu-orange);
+}
+
+@media (max-width: 768px) {
+    .page-banner {
+        min-height: 230px;
+    }
+
+    .page-banner h1 {
+        font-size: 34px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .section-title h2 {
+        font-size: 29px;
+    }
+
+    .content-image {
+        height: 280px;
+        margin-bottom: 25px;
+    }
+}
