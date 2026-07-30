@@ -83,7 +83,7 @@
 
             <div class="col-lg-6">
 
-                <img src="images/placement-training.jpg"
+                <img src="images/placement.jpg"
                      alt="Placement Training"
                      class="content-image">
 

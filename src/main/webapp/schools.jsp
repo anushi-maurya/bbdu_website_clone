@@ -34,7 +34,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-engineering.jpg"
+                    <img src="images/engineering.jpeg"
                          alt="Engineering">
 
                     <div class="card-content">
@@ -54,7 +54,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-management.jpg"
+                    <img src="images/management.jpeg"
                          alt="Management">
 
                     <div class="card-content">
@@ -74,7 +74,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-computer.jpg"
+                    <img src="images/computer-applications.jpeg"
                          alt="Computer Applications">
 
                     <div class="card-content">
@@ -94,7 +94,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-pharmacy.jpg"
+                    <img src="images/pharmacy.jpeg"
                          alt="Pharmacy">
 
                     <div class="card-content">
@@ -114,7 +114,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-law.jpg"
+                    <img src="images/legal.jpeg"
                          alt="Law">
 
                     <div class="card-content">
@@ -134,7 +134,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="school-card">
 
-                    <img src="images/school-hotel.jpg"
+                    <img src="images/hotel-management.jpeg"
                          alt="Hotel Management">
 
                     <div class="card-content">

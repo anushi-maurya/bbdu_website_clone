@@ -21,7 +21,7 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                <img src="images/about-campus.jpg"
+                <img src="images/campus.jpg"
                      alt="BBDU Campus"
                      class="content-image">
             </div>
