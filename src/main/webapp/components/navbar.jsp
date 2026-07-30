@@ -84,6 +84,12 @@ Contact
 </a>
 </li>
 
+<li class="nav-item">
+<a class="nav-link" href="student-portal.jsp">
+Student Portal
+</a>
+</li>
+
 </ul>
 
 </div>
