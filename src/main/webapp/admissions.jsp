@@ -124,49 +124,55 @@
 
                 <div class="contact-form">
 
-                    <form>
+                    <form action="AdmissionServlet" method="post">
 
-                        <div class="mb-3">
-                            <label class="form-label">Full Name</label>
-                            <input type="text"
-                                   class="form-control"
-                                   placeholder="Enter your name">
-                        </div>
+    <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input type="text"
+               class="form-control"
+               name="fullname"
+               placeholder="Enter your name"
+               required>
+    </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Email Address</label>
-                            <input type="email"
-                                   class="form-control"
-                                   placeholder="Enter your email">
-                        </div>
+    <div class="mb-3">
+        <label class="form-label">Email Address</label>
+        <input type="email"
+               class="form-control"
+               name="email"
+               placeholder="Enter your email"
+               required>
+    </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Phone Number</label>
-                            <input type="tel"
-                                   class="form-control"
-                                   placeholder="Enter phone number">
-                        </div>
+    <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="tel"
+               class="form-control"
+               name="phone"
+               placeholder="Enter phone number"
+               required>
+    </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Select Program</label>
+    <div class="mb-3">
+        <label class="form-label">Select Program</label>
 
-                            <select class="form-select">
-                                <option selected disabled>Choose a program</option>
-                                <option>B.Tech</option>
-                                <option>BCA</option>
-                                <option>MCA</option>
-                                <option>BBA</option>
-                                <option>MBA</option>
-                                <option>B.Pharm</option>
-                            </select>
-                        </div>
+        <select class="form-select" name="program" required>
+            <option value="" selected disabled>Choose a program</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="B.Pharm">B.Pharm</option>
+        </select>
+    </div>
 
-                        <button type="button" class="orange-button">
-                            Submit Enquiry
-                        </button>
+    <button type="submit" class="orange-button">
+        Submit Enquiry
+    </button>
 
-                    </form>
-
+</form>
+                    
                 </div>
 
             </div>

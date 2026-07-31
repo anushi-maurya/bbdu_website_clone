@@ -149,19 +149,19 @@
         <div class="row g-4">
 
             <div class="col-6 col-md-4 col-lg-2">
-                <img src="images/recruiter-tcs.png"
+                <img src="images/recruiter-tcs.jpg"
                      class="recruiter-logo"
                      alt="TCS">
             </div>
 
             <div class="col-6 col-md-4 col-lg-2">
-                <img src="images/recruiter-infosys.png"
+                <img src="images/recruiter-infosys.jpg"
                      class="recruiter-logo"
                      alt="Infosys">
             </div>
 
             <div class="col-6 col-md-4 col-lg-2">
-                <img src="images/recruiter-wipro.png"
+                <img src="images/recruiter-wipro.jpg"
                      class="recruiter-logo"
                      alt="Wipro">
             </div>
