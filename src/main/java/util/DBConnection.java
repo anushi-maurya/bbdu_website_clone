@@ -17,13 +17,18 @@ public class DBConnection {
     public static Connection getConnection() {
 
         Connection con = null;
-
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
+
+            System.out.println("DB_URL = " + URL);
+            System.out.println("DB_USER = " + USER);
+
             con = DriverManager.getConnection(URL, USER, PASSWORD);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+        
 
         return con;
     }
