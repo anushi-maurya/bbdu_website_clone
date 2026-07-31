@@ -32,7 +32,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="life-card">
 
-                    <img src="images/life-library.jpg"
+                    <img src="images/reading_zone.jpg"
                          alt="Library">
 
                     <div class="card-content">
@@ -49,7 +49,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="life-card">
 
-                    <img src="images/life-sports.jpg"
+                    <img src="images/sports.jpg"
                          alt="Sports">
 
                     <div class="card-content">
@@ -100,7 +100,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="life-card">
 
-                    <img src="images/life-lab.jpg"
+                    <img src="images/laboratory.jpg"
                          alt="Laboratory">
 
                     <div class="card-content">
@@ -117,7 +117,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="life-card">
 
-                    <img src="images/life-clubs.jpg"
+                    <img src="images/dance.jpg"
                          alt="Student Clubs">
 
                     <div class="card-content">
@@ -129,59 +129,6 @@
                     </div>
 
                 </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="section-padding section-light">
-
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Campus <span>Gallery</span></h2>
-            <div class="title-line"></div>
-        </div>
-
-        <div class="row g-3">
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-1.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
-            </div>
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-2.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
-            </div>
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-3.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
-            </div>
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-4.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
-            </div>
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-5.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
-            </div>
-
-            <div class="col-6 col-md-4">
-                <img src="images/gallery-6.jpg"
-                     class="img-fluid rounded w-100"
-                     alt="Campus Gallery">
             </div>
 
         </div>
